@@ -3,7 +3,7 @@
 Emulator for
 [this TPT computer](https://powdertoy.co.uk/Browse/View.html?ID=2303519),
 the manual for which is available
-[here](https://powdertoy.co.uk/Browse/View.html?ID=2303519).
+[here](https://trigraph.net/powdertoy/R216/manual.md).
 
 ## Building
 
