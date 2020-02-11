@@ -6,6 +6,7 @@ executable('main',
 	dependencies: [
 		c_compiler.find_library('m', required: false),
 		dependency('gtk+-3.0')
-	]
+	],
+	link_args: ['-export-dynamic']
 )
 configure_file(input: 'glade.glade', output: 'glade.glade', copy: true)
