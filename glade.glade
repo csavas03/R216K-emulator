@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkAdjustment" id="adjustment0">
+    <property name="lower">1</property>
+    <property name="upper">999</property>
+    <property name="value">60</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkWindow" id="main_window">
+    <property name="can_focus">False</property>
+    <property name="resizable">False</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkFrame">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_right">4</property>
+            <property name="margin_bottom">3</property>
+            <property name="label_xalign">0.5</property>
+            <property name="shadow_type">out</property>
+            <child>
+              <object class="GtkGrid">
+                <property name="width_request">172</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_right">4</property>
+                <property name="margin_bottom">3</property>
+                <property name="row_spacing">14</property>
+                <property name="column_homogeneous">True</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 0    </property>
+                    <property name="single_line_mode">True</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 1    </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 2    </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 3    </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 4    </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">4</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 5    </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">5</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 6    </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">6</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 7    </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">7</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 8    </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">8</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 9    </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">9</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 10   </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 11   </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">11</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 12   </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">12</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 13   </property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">13</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 14/SP</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">14</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">REG 15/IP</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">15</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r0">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R0</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R1</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R2</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r3">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R3</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r4">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R4</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">4</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r5">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R5</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">5</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r6">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R6</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">6</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r7">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R7</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">7</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r8">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R8</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">8</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r9">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R9</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">9</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r10">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R10</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r11">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R11</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">11</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r12">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R12</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">12</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r13">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R13</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">13</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r14">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R14</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">14</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_r15">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">R15</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">15</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Write Mask</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">16</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_writemask">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">Write Mask. Can be set with the SWM instruction.</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">WM</property>
+                    <signal name="activate" handler="on_reg_modified" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">16</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Stack top</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">17</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry_reg_valonstack">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">Value at [R14]. (last value pushed to stack)</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">ST</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">17</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Reg</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace 10"/>
+                </attributes>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">487</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame">
+            <property name="width_request">463</property>
+            <property name="height_request">54</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0.5</property>
+            <property name="shadow_type">out</property>
+            <child>
+              <object class="GtkGrid">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="column_homogeneous">True</property>
+                <child>
+                  <object class="GtkLabel" id="open_file_status">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">No file loaded.</property>
+                    <property name="justify">center</property>
+                    <property name="single_line_mode">True</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">1</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="model_select_combobox">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="tooltip_text" translatable="yes">Select RAM size.</property>
+                    <property name="active">0</property>
+                    <property name="has_entry">True</property>
+                    <property name="active_id">0</property>
+                    <items>
+                      <item id="2" translatable="yes">2K (R216K2A)</item>
+                      <item id="4" translatable="yes">4K (R216K4A)</item>
+                      <item id="8" translatable="yes">8K (R216K8A)</item>
+                      <item id="64" translatable="yes">64K (-)</item>
+                    </items>
+                    <signal name="changed" handler="on_model_select_combobox_changed" swapped="no"/>
+                    <child internal-child="entry">
+                      <object class="GtkEntry">
+                        <property name="can_focus">False</property>
+                        <property name="text" translatable="yes">2K (R216K2A)</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="open_r2_bin_button">
+                    <property name="label" translatable="yes">Load file to memory</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Load a binary file to the R2 memory. (4 byte/word - little endian)</property>
+                    <signal name="clicked" handler="on_open_r2_bin_button_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Open R2 binary files</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace 10"/>
+                </attributes>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">5</property>
+            <property name="y">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0.5</property>
+            <property name="shadow_type">out</property>
+            <child>
+              <object class="GtkGrid">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_left">5</property>
+                <property name="margin_right">5</property>
+                <property name="margin_top">10</property>
+                <property name="margin_bottom">5</property>
+                <child>
+                  <object class="GtkButton" id="start_button">
+                    <property name="label">Start</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Start execution with specific speed.</property>
+                    <property name="always_show_image">True</property>
+                    <signal name="clicked" handler="on_start_button_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="pause_button">
+                    <property name="label">gtk-media-pause</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Pause execution.</property>
+                    <property name="use_stock">True</property>
+                    <property name="always_show_image">True</property>
+                    <signal name="clicked" handler="on_pause_button_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="step_button">
+                    <property name="label" translatable="yes">STEP</property>
+                    <property name="width_request">58</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Execute 1 instruction.</property>
+                    <signal name="clicked" handler="on_step_button_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">2</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="reset_button">
+                    <property name="label">RESET</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Reload memory from file, clear registers, clear display.</property>
+                    <property name="always_show_image">True</property>
+                    <signal name="clicked" handler="on_reset_button_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">2</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSpinButton" id="speed_spin_button">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">Instructions per second. For 200+ IPS, use fast mode instead.</property>
+                    <property name="max_length">3</property>
+                    <property name="width_chars">3</property>
+                    <property name="max_width_chars">3</property>
+                    <property name="input_purpose">number</property>
+                    <property name="adjustment">adjustment0</property>
+                    <property name="snap_to_ticks">True</property>
+                    <property name="numeric">True</property>
+                    <property name="wrap">True</property>
+                    <property name="update_policy">if-valid</property>
+                    <signal name="value-changed" handler="on_speed_button_value_changed" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">1</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkProgressBar" id="fast_mode_progress_bar">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="tooltip_text" translatable="yes">Progress of step mode.</property>
+                    <property name="pulse_step">0</property>
+                    <property name="text" translatable="yes">qwe</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">9</property>
+                    <property name="width">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="fast_amount_entry">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">Pause after X steps. No GUI update while running in fast mode.</property>
+                    <property name="placeholder_text" translatable="yes">Pause after X step</property>
+                    <property name="input_purpose">number</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">8</property>
+                    <property name="width">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="fast_button">
+                    <property name="label" translatable="yes">Fast mode</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Execute a specific number of instructions, then pause. GUI is not updated while running.</property>
+                    <signal name="clicked" handler="on_fast_button_clicked" object="fast_amount_entry" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">7</property>
+                    <property name="width">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="pause_at_ip_addr_entry">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">Address to pause execution on. (hexadecimal)</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">ADDR</property>
+                    <signal name="activate" handler="on_pause_at_ip_addr_entry_activate" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">2</property>
+                    <property name="top_attach">4</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkToggleButton" id="pause_at_ip_tbutton">
+                    <property name="label" translatable="yes">Pause on addr.</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Pause, if IP equals specific value</property>
+                    <signal name="toggled" handler="on_pause_at_ip_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">4</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkToggleButton" id="ignore_hlt_tbutton">
+                    <property name="label" translatable="yes">Ignore HLT</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Countinue execution after a HLT instruction.</property>
+                    <signal name="toggled" handler="on_ignore_hlt_tbutton_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">5</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkToggleButton" id="pause_at_io_tbutton">
+                    <property name="label" translatable="yes">Pause on IO</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Pause on IO activity.</property>
+                    <signal name="toggled" handler="on_pause_at_io_tbutton_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">3</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Control</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">5</property>
+            <property name="y">500</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame">
+            <property name="width_request">462</property>
+            <property name="height_request">403</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0.5</property>
+            <property name="shadow_type">out</property>
+            <child>
+              <object class="GtkFixed">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkLabel" id="mem_disassembly_label">
+                    <property name="width_request">307</property>
+                    <property name="height_request">221</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="tooltip_text" translatable="yes">Disassembly</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">145</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkFrame">
+                    <property name="height_request">136</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label_xalign">0.5</property>
+                    <property name="shadow_type">out</property>
+                    <child>
+                      <object class="GtkGrid">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="margin_left">3</property>
+                        <property name="margin_right">3</property>
+                        <property name="margin_bottom">3</property>
+                        <property name="row_homogeneous">True</property>
+                        <child>
+                          <object class="GtkEntry" id="mem_addr_entry0">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="tooltip_text" translatable="yes">ADDR</property>
+                            <property name="max_length">4</property>
+                            <property name="width_chars">4</property>
+                            <property name="max_width_chars">4</property>
+                            <property name="text" translatable="yes">0000</property>
+                            <property name="placeholder_text" translatable="yes">ADR0</property>
+                            <signal name="activate" handler="on_mem_addr_entry_activate" swapped="no"/>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="mem_addr_entry1">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="tooltip_text" translatable="yes">ADDR</property>
+                            <property name="max_length">4</property>
+                            <property name="width_chars">4</property>
+                            <property name="max_width_chars">4</property>
+                            <property name="text" translatable="yes">0001</property>
+                            <property name="placeholder_text" translatable="yes">ADR1</property>
+                            <signal name="activate" handler="on_mem_addr_entry_activate" swapped="no"/>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="mem_addr_entry2">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="tooltip_text" translatable="yes">ADDR</property>
+                            <property name="max_length">4</property>
+                            <property name="width_chars">4</property>
+                            <property name="max_width_chars">4</property>
+                            <property name="text" translatable="yes">0002</property>
+                            <property name="placeholder_text" translatable="yes">ADR2</property>
+                            <signal name="activate" handler="on_mem_addr_entry_activate" swapped="no"/>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">2</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="mem_addr_entry3">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="tooltip_text" translatable="yes">ADDR</property>
+                            <property name="max_length">4</property>
+                            <property name="width_chars">4</property>
+                            <property name="max_width_chars">4</property>
+                            <property name="text" translatable="yes">0003</property>
+                            <property name="placeholder_text" translatable="yes">ADR3</property>
+                            <signal name="activate" handler="on_mem_addr_entry_activate" swapped="no"/>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">3</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="mem_value_s_entry0">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="tooltip_text" translatable="yes">VAL</property>
+                            <property name="max_length">8</property>
+                            <property name="width_chars">8</property>
+                            <property name="max_width_chars">8</property>
+                            <property name="text" translatable="yes">20000000</property>
+                            <property name="placeholder_text" translatable="yes">VAL0</property>
+                            <signal name="activate" handler="on_mem_value_s_entry_activate" swapped="no"/>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="mem_value_s_entry1">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="tooltip_text" translatable="yes">VAL</property>
+                            <property name="max_length">8</property>
+                            <property name="width_chars">8</property>
+                            <property name="max_width_chars">8</property>
+                            <property name="text" translatable="yes">20000000</property>
+                            <property name="placeholder_text" translatable="yes">VAL1</property>
+                            <signal name="activate" handler="on_mem_value_s_entry_activate" swapped="no"/>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="mem_value_s_entry2">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="tooltip_text" translatable="yes">VAL</property>
+                            <property name="max_length">8</property>
+                            <property name="width_chars">8</property>
+                            <property name="max_width_chars">8</property>
+                            <property name="text" translatable="yes">20000000</property>
+                            <property name="placeholder_text" translatable="yes">VAL2</property>
+                            <signal name="activate" handler="on_mem_value_s_entry_activate" swapped="no"/>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">2</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkEntry" id="mem_value_s_entry3">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="tooltip_text" translatable="yes">VAL</property>
+                            <property name="max_length">8</property>
+                            <property name="width_chars">8</property>
+                            <property name="max_width_chars">8</property>
+                            <property name="text" translatable="yes">20000000</property>
+                            <property name="placeholder_text" translatable="yes">VAL3</property>
+                            <signal name="activate" handler="on_mem_value_s_entry_activate" swapped="no"/>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">3</property>
+                          </packing>
+                        </child>
+                      </object>
+                    </child>
+                    <child type="label">
+                      <object class="GtkLabel">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="label" translatable="yes">Memory modify</property>
+                        <property name="single_line_mode">True</property>
+                        <attributes>
+                          <attribute name="font-desc" value="Monospace 10"/>
+                        </attributes>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">5</property>
+                    <property name="y">-2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="mem_view_addr0">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">ADDR</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="max_width_chars">4</property>
+                    <property name="text" translatable="yes">0000</property>
+                    <property name="placeholder_text" translatable="yes">ADR0</property>
+                    <signal name="activate" handler="on_mem_view_addr0_activate" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">5</property>
+                    <property name="y">220</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="mem_view_label0">
+                    <property name="width_request">226</property>
+                    <property name="height_request">123</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="tooltip_text" translatable="yes">MemWatch</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">5</property>
+                    <property name="y">253</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="mem_view_label1">
+                    <property name="width_request">226</property>
+                    <property name="height_request">123</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="tooltip_text" translatable="yes">MemWatch</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">230</property>
+                    <property name="y">253</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="mem_view_addr1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">ADDR</property>
+                    <property name="max_length">4</property>
+                    <property name="width_chars">4</property>
+                    <property name="max_width_chars">4</property>
+                    <property name="text" translatable="yes">0008</property>
+                    <property name="placeholder_text" translatable="yes">ADR1</property>
+                    <signal name="activate" handler="on_mem_view_addr1_activate" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">405</property>
+                    <property name="y">220</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="save_r2_bin_button">
+                    <property name="label" translatable="yes">Save memory</property>
+                    <property name="width_request">150</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <signal name="clicked" handler="on_save_r2_bin_button_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">70</property>
+                    <property name="y">220</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="save_disassembly_button">
+                    <property name="label" translatable="yes">Save disassembly</property>
+                    <property name="width_request">100</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Save disassembly to a file as plain text (current memory).</property>
+                    <signal name="clicked" handler="on_save_disassembly_button_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">222</property>
+                    <property name="y">220</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Memory</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace 10"/>
+                </attributes>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">5</property>
+            <property name="y">74</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame">
+            <property name="width_request">224</property>
+            <property name="height_request">79</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0.5</property>
+            <property name="shadow_type">out</property>
+            <child>
+              <object class="GtkGrid">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="row_homogeneous">True</property>
+                <property name="column_homogeneous">True</property>
+                <child>
+                  <object class="GtkLabel" id="flag_carry_label">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="single_line_mode">True</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="flag_overflow_label">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="single_line_mode">True</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="flag_zero_label">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="single_line_mode">True</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="flag_sign_label">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="single_line_mode">True</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Flags</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">220</property>
+            <property name="y">500</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0.5</property>
+            <property name="shadow_type">out</property>
+            <child>
+              <object class="GtkGrid">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkButton" id="clear_screen_button">
+                    <property name="label" translatable="yes">Clear</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Clear the R2TERM.</property>
+                    <signal name="clicked" handler="on_clear_screen_button_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="r2term_port_entry">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">PORT number for R2TERM DISPLAY.</property>
+                    <property name="max_length">3</property>
+                    <property name="width_chars">3</property>
+                    <property name="max_width_chars">3</property>
+                    <property name="text" translatable="yes">0</property>
+                    <property name="placeholder_text" translatable="yes">OUT PORT</property>
+                    <signal name="activate" handler="on_r2term_port_entry_activate" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="r2term_ascii_text_entry">
+                    <property name="width_request">220</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">Send text from the R2TERM as ASCII.</property>
+                    <property name="width_chars">2</property>
+                    <property name="placeholder_text" translatable="yes">ASCII from INPUT PORT</property>
+                    <signal name="activate" handler="on_r2term_ascii_text_entry_activate" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">2</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="r2term_hex_text_entry">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">Send raw data from R2TERM. Separate values with colons. Start with 0x for hexadecimal, otherwise its sent as decimal. (Example: "0x0D,0x1234,0,97,12345")</property>
+                    <property name="width_chars">2</property>
+                    <property name="placeholder_text" translatable="yes">Words from INPUT PORT</property>
+                    <signal name="activate" handler="on_r2term_hex_text_entry_activate" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">3</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="r2term_keys_text_entry">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">ENTER / BACKSPACE / TAB / SPACE / NULL (typing first letter is enough, 0 for NULL)</property>
+                    <property name="width_chars">2</property>
+                    <property name="placeholder_text" translatable="yes">KEYS from INPUT PORT</property>
+                    <signal name="activate" handler="on_r2term_keys_text_entry_activate" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">4</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="r2term_port_in_entry">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes">PORT number for input (R2TERM KEYBOARD) (used with the 3 entrys below).</property>
+                    <property name="max_length">3</property>
+                    <property name="width_chars">3</property>
+                    <property name="max_width_chars">3</property>
+                    <property name="text" translatable="yes">0</property>
+                    <property name="placeholder_text" translatable="yes">IN PORT</property>
+                    <signal name="activate" handler="on_r2term_port_in_entry_activate" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="r2term_input_buffer_label">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">INPUT P/S: 000/000</property>
+                    <property name="single_line_mode">True</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Monospace 10"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">5</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="newline_r2term_button">
+                    <property name="label" translatable="yes">Enter</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Send "\r" from INPUT PORT.</property>
+                    <signal name="clicked" handler="on_newline_r2term_button_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">I/O</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">220</property>
+            <property name="y">600</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

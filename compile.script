@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -s -O2 -Wall -o main main.c -Wno-format -Wno-deprecated-declarations -Wno-format-security -lm `pkg-config --cflags --libs gtk+-3.0` -export-dynamic

@@ -1,0 +1,1 @@
+./r2asm.lua "src.asm" "headless_model=R216K2A" > src.bin
