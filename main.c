@@ -407,8 +407,8 @@ void Rstep(){//Executes one instruction.
 				case 0xA://JLE/JNG		Z = 1 OR S != O
 					if(F_Zero || F_Sign!=F_Over) R2_REG[15] = q1;
 					break;
-				case 0xB://JNE/JNZ		Z = 0 OR S = O
-					if(F_Zero == 0 || F_Sign==F_Over) R2_REG[15] = q1;
+				case 0xB://JNLE/JG		Z = 0 OR S = O
+					if(F_Zero == 0 && F_Sign==F_Over) R2_REG[15] = q1;
 					break;
 				case 0xC://JL/JNGE		S != O
 					if(F_Sign != F_Over) R2_REG[15] = q1;
